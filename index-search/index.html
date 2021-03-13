@@ -1,0 +1,38 @@
+
+<!doctype html>
+<html lang="zh">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content="鲁虺索引搜索">
+        <meta name="keywords" content="HTML,CSS,XML,JavaScript">
+        <meta name="author" content="http://ebook.luhui.net/">
+        <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' />
+        <title>鲁虺索引搜索</title>
+        <link rel="stylesheet" href="css/normalize.min.css">
+        <link rel="stylesheet" href="css/style.css">
+        <script defer src="js/light.min.js"></script>
+        <script defer src="js/fontawesome.min.js"></script>
+    </head>
+    <body>
+        <h1>鲁虺索引搜索</h1>
+        <div id="search-bar">
+            <div id="dropdown">
+                <button id="dropdown-button">视频<i class="fal fa-tv-retro"></i></button>
+                <div id="dropdown-menu">
+                    <ul class="dropdown-submenu">
+                        <li value="tv-retro"><i class="fal fa-tv-retro"></i><span>视频</span></li>
+                        <li value="headphones"><i class="fal fa-headphones"></i><span>音频</span></li>
+                        <li value="book"><i class="fal fa-book"></i><span>电子书</span></li>
+                        <li value="images"><i class="fal fa-images"></i><span>图片</span></li>
+                        <li value="gamepad"><i class="fal fa-gamepad"></i><span>软件/游戏</span></li>
+                        <li class="spacer"><hr></li>
+                        <li value="file-archive"><i class="fal fa-file-archive"></i><span>压缩包</span></li>
+                    </ul>
+                </div>
+            </div>
+            <input id="search-box" autocomplete="off" placeholder="Powered by luhui" autofocus>
+            <button id="search-button"><i class="fal fa-search"></i></button>
+        </div>
+    </body>
+    <script src="js/menu.js"></script>
+</html>
